@@ -29,11 +29,6 @@ export function Features() {
             description="Não exponha seus dados e os dados dos seus clientes em IAs Gratuitas, utilize uma IA de confiança"
           />
         </div>
-        <div className="text-center mt-12">
-          <Button className="bg-[#006C84] text-white hover:bg-[#005A6F] transition-all duration-200 hover:shadow-lg">
-            Experimente grátis
-          </Button>
-        </div>
       </div>
     </section>
   )
