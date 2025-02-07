@@ -1,11 +1,17 @@
-import { Check } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { whatsappLink } from "@/lib/utils"
-import Link from "next/link"
+// src/components/Benefits.jsx
+import { Check } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export function Benefits() {
+  const scrollToForm = () => {
+    const formElement = document.getElementById("contact-section");
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className="py-24 px-4 bg-gradient-to-br from-[#051B2C] to-[#0A2847] rounded-[40px] mx-4 my-16">
+    <section className="py-12 px-12 bg-gradient-to-br from-[#051B2C] to-[#0A2847] rounded-[40px] mx-4 my-16">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div className="space-y-6">
@@ -17,9 +23,9 @@ export function Benefits() {
             ].map((text, index) => (
               <div
                 key={index}
-                className="flex items-center gap-3 p-6 bg-white/10 backdrop-blur-sm rounded-lg hover:bg-white/15 transition-all duration-300 hover:transform hover:translate-x-1"
+                className="flex items-center gap-3 p-6 bg-white/10 backdrop-blur-sm rounded-lg hover:bg-white/15 transition-all duration-300 hover:translate-x-1"
               >
-                <div className="rounded-full p-0.5 bg-gradient-to-r from-[#3CDFFF] to-[#3CDFFF]/50 group-hover:from-[#3CDFFF] group-hover:to-[#3CDFFF]">
+                <div className="rounded-full p-0.5 bg-gradient-to-r from-[#3CDFFF] to-[#3CDFFF]/50">
                   <Check className="h-4 w-4 text-[#051B2C]" />
                 </div>
                 <span className="text-white text-sm">{text}</span>
@@ -31,21 +37,22 @@ export function Benefits() {
               Otimize rotinas, reduza tempo de processo e atrasos
             </h2>
             <p className="text-gray-300 text-lg hover:text-white transition-colors">
-              A IA da Legisla.AI é treinada com Jurisprudências reais e com a legislação Brasileira, trazendo o
-              conhecimento e qualidade de milhares de processos e leis.
+              A IA da Legisla.AI é treinada com Jurisprudências reais e com a
+              legislação Brasileira, trazendo o conhecimento e qualidade de
+              milhares de processos e leis.
             </p>
-            <Link href={whatsappLink} target="_blank" rel="noopener noreferrer">
+            <div className="flex justify-start max-[900px]:justify-center">
               <Button
+                onClick={scrollToForm}
                 variant="outline"
                 className="border border-white/20 text-white hover:bg-white/10 rounded-lg px-8 py-6 mt-8 h-auto text-base bg-white/5 transition-all duration-300 hover:border-white/40 hover:text-white"
               >
                 Fale com um especialista
               </Button>
-            </Link>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
-
