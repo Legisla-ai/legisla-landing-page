@@ -37,7 +37,7 @@ export function Benefits() {
               Otimize rotinas, reduza tempo de processo e atrasos
             </h2>
             <p className="text-gray-300 text-lg hover:text-white transition-colors">
-              A IA da Legisla.AI é treinada com Jurisprudências reais e com a
+              A IA da Legisla.ai é treinada com Jurisprudências reais e com a
               legislação Brasileira, trazendo o conhecimento e qualidade de
               milhares de processos e leis.
             </p>

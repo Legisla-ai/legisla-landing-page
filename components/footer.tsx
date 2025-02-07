@@ -9,7 +9,7 @@ export function Footer() {
       <div className="flex flex-col items-center gap-4">
         <div className="flex items-center gap-2">
           <LegislaLogo className="h-8 w-auto" />
-          <span className="text-xl font-bold">Legisla.AI</span>
+          <span className="text-xl font-bold">Legisla.ai</span>
         </div>
         <Link
           href="https://www.instagram.com/oficiallegisla.ai/"

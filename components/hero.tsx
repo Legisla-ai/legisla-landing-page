@@ -48,7 +48,7 @@ export function Hero() {
           <div className="relative rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hero-GYnSPqATWNheJs4xOblaswOAK2Eg5E.png"
-              alt="Interface do Legisla.AI mostrando as principais funcionalidades"
+              alt="Interface do Legisla.ai mostrando as principais funcionalidades"
               width={1200}
               height={675}
               className="w-full"

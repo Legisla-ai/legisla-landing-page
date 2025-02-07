@@ -15,7 +15,7 @@ export function Header() {
           <span
             className={`${satoshi.className} text-xl font-bold text-[#1A1A1A] group-hover:text-blue-600 transition-colors`}
           >
-            Legisla.AI
+            Legisla.ai
           </span>
         </Link>
         <div className="flex items-center space-x-4">
