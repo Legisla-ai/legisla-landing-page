@@ -3,7 +3,7 @@ import { twMerge } from "tailwind-merge";
 
 const phoneNumber = "5547988724280";
 const message = encodeURIComponent(
-  "Olá, gostaria de saber mais sobre o Legisla.ai!",
+  "Olá, gostaria de saber mais sobre o Legisla.AI!",
 );
 
 export function cn(...inputs: ClassValue[]) {

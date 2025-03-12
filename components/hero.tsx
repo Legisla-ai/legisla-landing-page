@@ -34,6 +34,7 @@ export function Hero() {
             >
               Falar com um especialista
             </Button>
+            {/* Remover este botão por enquanto
             <Link href="/trial" className="hidden md:block">
               <Button
                 variant="default"
@@ -42,13 +43,14 @@ export function Hero() {
                 Experimente Gratis
               </Button>
             </Link>
+            */}
           </div>
         </div>
         <div className="max-w-5xl mx-auto">
           <div className="relative rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hero-GYnSPqATWNheJs4xOblaswOAK2Eg5E.png"
-              alt="Interface do Legisla.ai mostrando as principais funcionalidades"
+              src="/images/app_home.png"
+              alt="Interface do Legisla.AI mostrando as principais funcionalidades"
               width={1200}
               height={675}
               className="w-full"

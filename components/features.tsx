@@ -14,7 +14,7 @@ export function Features() {
           </span>
         </h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-          Veja como a Legisla.ai resolve problemas que te tiram tempo no dia a
+          Veja como a Legisla.AI resolve problemas que te tiram tempo no dia a
           dia utilizando inteligência artificial
         </p>
         <div className="grid md:grid-cols-3 gap-8">
@@ -34,6 +34,7 @@ export function Features() {
             description="Não exponha seus dados e os dados dos seus clientes em IAs Gratuitas, utilize uma IA de confiança"
           />
         </div>
+        {/*
         <div className="mt-12 flex justify-center">
           <Link href="/trial">
             <Button
@@ -44,6 +45,7 @@ export function Features() {
             </Button>
           </Link>
         </div>
+        */}
       </div>
     </section>
   );

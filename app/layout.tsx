@@ -5,7 +5,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Legisla.ai",
+  title: "Legisla.AI",
   description:
     "Escreva contratos, peças Jurídicas e pesquise Jurisprudências reais em minutos com Inteligência Artificial especializada em Advogados",
 }

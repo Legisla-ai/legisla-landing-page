@@ -60,7 +60,7 @@ export default function Contact() {
       {/* Header */}
       <header className="text-center max-w-2xl mx-auto mt-16 mb-8">
         <h1 className="text-3xl md:text-4xl font-medium mb-4">
-          Fale agora com a Legisla.ai e{" "}
+          Fale agora com a Legisla.AI e{" "}
           <span className="text-cyan-400">não perca mais tempo</span> em seu
           escritório.
         </h1>

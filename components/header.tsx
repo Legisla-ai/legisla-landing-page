@@ -15,7 +15,7 @@ export function Header() {
           <span
             className={`${satoshi.className} text-xl font-bold text-[#1A1A1A] group-hover:text-blue-600 transition-colors`}
           >
-            Legisla.ai
+            Legisla.AI
           </span>
         </Link>
         <div className="flex items-center space-x-4">
@@ -28,6 +28,7 @@ export function Header() {
               <span className="hidden md:inline">Fale com um especialista</span>
             </Button>
           </Link>
+          {/* Ocultar por enquanto
           <Link href="/trial" className="hidden md:block">
             <Button
               variant="default"
@@ -36,6 +37,7 @@ export function Header() {
               <span>Experimente Gratis</span>
             </Button>
           </Link>
+          */}
         </div>
       </div>
     </header>

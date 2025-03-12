@@ -12,7 +12,7 @@ import { WhatsAppIcon } from "@/components/whatsapp-icon";
 export default function Home() {
   const phoneNumber = "5547988724280";
   const message = encodeURIComponent(
-    "Olá, gostaria de saber mais sobre o Legisla.ai!",
+    "Olá, gostaria de saber mais sobre o Legisla.AI!",
   );
 
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;

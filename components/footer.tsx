@@ -9,7 +9,7 @@ export function Footer() {
       <div className="flex flex-col items-center gap-4">
         <div className="flex items-center gap-2">
           <LegislaLogo className="h-8 w-auto" />
-          <span className="text-xl font-bold">Legisla.ai</span>
+          <span className="text-xl font-bold">Legisla.AI</span>
         </div>
         <Link
           href="https://www.instagram.com/oficiallegisla.ai/"
@@ -19,7 +19,7 @@ export function Footer() {
           <Instagram className="h-5 w-5" />
         </Link>
         <p className="text-sm text-gray-400">
-          Copyright 2025 Legisla.ai | Todos os direitos reservados
+          Copyright 2025 Legisla.AI | Todos os direitos reservados
         </p>
       </div>
     </footer>
